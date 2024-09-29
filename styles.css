@@ -1,0 +1,9 @@
+.patrocinado-highlight {
+  background-color: yellow !important;
+    color:black;
+  font-weight: bold !important;
+  padding: 3px 9px !important;
+  border-radius: 12px !important;
+  display: inline-block !important;
+}
+

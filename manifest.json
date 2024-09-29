@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Patrocinado Content Highlighter",
+  "version": "1.0",
+  "description": "Highlights patrocinado content with circular yellow backgrounds",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "patrocinadocontenthighlighter@example.com"
+    }
+  }
+}
+
